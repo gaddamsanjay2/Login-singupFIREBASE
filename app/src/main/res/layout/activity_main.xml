@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="SIGNING FORM"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:background="@color/teal_200"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/nameedt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAlignment="textStart"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/lastnedt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last Name "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAlignment="textStart"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/numbmailedt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Mail "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAlignment="textStart"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/passwordedt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password "
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAlignment="textStart"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/signup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="30dp"
+        android:textSize="22sp"
+        android:text="Signup"/>
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_margin="30dp"
+        android:textSize="22sp"
+        android:text="Login"
+        android:onClick="loginpage"/>
+
+
+
+
+</LinearLayout>
